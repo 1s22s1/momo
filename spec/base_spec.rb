@@ -12,13 +12,13 @@ RSpec.describe Momo::Base do
 
     subject { Vegetable.find_by_id(id) }
 
-    context 'id=0の野菜を取得する場合' do
+    context 'Get id = 0' do
       let(:id) { 0 }
 
       it { expect(subject).to eq nil }
     end
 
-    context 'id=1の野菜を取得する場合' do
+    context 'Get id = 1' do
       let(:id) { 1 }
 
       it do
@@ -29,7 +29,7 @@ RSpec.describe Momo::Base do
       end
     end
 
-    context 'id=2の野菜を取得する場合' do
+    context 'Get id = 2' do
       let(:id) { 2 }
 
       it do

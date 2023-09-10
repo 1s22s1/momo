@@ -1,16 +1,16 @@
-# 桃
+# Momo
 
-桃は、ハッシュをActiveRecordのように扱うことを可能にするライブラリです。https://github.com/active-hash/active_hash を参考にしています。
+Momo introduce Hash like using ActiveRecord. We reference https://github.com/active-hash/active_hash .
 
-## インストール方法
+## How to install
 
-シェル上で、次のコマンドを実行します。
+Run below commmand on shedll.
 
 ```console
 gem install momo
 ```
 
-## 使い方
+## How to use
 
 ```ruby
 require 'momo'

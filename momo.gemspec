@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ['1s22s1']
   spec.email = ['1s22s1@example.com']
 
-  spec.summary = '桃は、ハッシュをActiveRecordのように扱うことを可能にするライブラリです。'
-  spec.description = '桃は、ハッシュをActiveRecordのように扱うことを可能にするライブラリです。'
+  spec.summary = 'Momo introduce Hash like using ActiveRecord.'
+  spec.description = 'Momo introduce Hash like using ActiveRecord.'
   spec.homepage = 'https://github.com/1s22s1/momo'
   spec.required_ruby_version = '>= 2.6.0'
 
